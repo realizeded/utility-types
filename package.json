@@ -17,6 +17,7 @@
     }
   },
   "scripts": {
+    "push":"bash ./.git.sh",
     "ci-check": "npm run prettier && npm run lint && npm run tsc && npm run test",
     "reinstall": "rm -rf node_modules/ dist/ && npm install",
     "prettier": "prettier --list-different 'src/**/*.ts' || (echo '\nPlease fix code formatting by running:\nnpm run prettier:fix\n'; exit 1)",
