@@ -7,7 +7,7 @@ type a = {
 type b = {
     a:1
 }
-let config:Diff<a,b>;
-/* {
-    b:2
-} */
+
+
+
+
